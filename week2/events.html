@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Handling Demo</title>
+    <style>
+        .container { max-width: 600px; margin: 20px auto; padding: 20px; }
+        .event-box { 
+            padding: 20px; margin: 10px 0; border: 2px solid #ccc; 
+            border-radius: 5px; cursor: pointer; transition: all 0.3s;
+        }
+        .event-box:hover { background-color: #f0f0f0; border-color: #007bff; }
+        .clicked { background-color: #d4edda; border-color: #28a745; }
+        button { padding: 10px 20px; margin: 5px; cursor: pointer; }
+        #event-log { 
+            background: #f8f9fa; padding: 15px; border-radius: 5px; 
+            max-height: 200px; overflow-y: auto; font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Event Handling for Automation</h1>
+        
+        <div id="click-box" class="event-box">
+            Click me! (Practice requirement)
+        </div>
+        
+        <div id="hover-box" class="event-box">
+            Hover over me! (Practice requirement)
+        </div>
+        
+        <button id="reset-btn">Reset Events</button>
+        <button id="simulate-btn">Simulate Automation</button>
+        
+        <h3>Event Log:</h3>
+        <div id="event-log"></div>
+    </div>
+    
+    <script src="day10-events.js"></script>
+</body>
+</html>

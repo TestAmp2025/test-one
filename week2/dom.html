@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Practice</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .container { max-width: 600px; margin: 0 auto; }
+        button { padding: 10px 20px; margin: 10px; cursor: pointer; }
+        .highlight { background-color: yellow; }
+        .hidden { display: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="main-title">DOM Manipulation Demo</h1>
+        <p id="demo-text">This text will change dynamically</p>
+        
+        <button id="change-text-btn">Change Text</button>
+        <button id="add-element-btn">Add Element</button>
+        <button id="toggle-visibility-btn">Toggle Visibility</button>
+        
+        <div id="dynamic-content"></div>
+        <ul id="test-list">
+            <li>Test Item 1</li>
+            <li>Test Item 2</li>
+        </ul>
+    </div>
+    
+    <script src="day9-dom-manipulation.js"></script>
+</body>
+</html>

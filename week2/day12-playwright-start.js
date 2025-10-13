@@ -19,3 +19,19 @@
 // # Alternative manual installation
 // # npm install @playwright/test
 // # npx playwright install
+
+
+// Run everything:
+// npx playwright test
+
+// Run just this file:
+// npx playwright test tests/example.spec.js
+
+// Run a single test by name:
+// npx playwright test -g "get started link"
+
+// Watch it with a visible browser (headed):
+// npx playwright test --headed
+
+// Debug step-by-step (Inspector):
+// npx playwright test --debug
